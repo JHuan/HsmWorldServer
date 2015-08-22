@@ -124,24 +124,29 @@
 [09:42:17] [Server thread/INFO]: Preparing start region for level 2 (Seed: -7897839639095878316)
 [09:42:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
 [09:42:17] [Server thread/INFO]: Done (4.571s)! For help, type "help" or "?"
-[09:44:12] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[09:44:12] [Server console handler/ERROR]: Exception handling console input
-java.io.IOException: ¾ä±úÎÞÐ§¡£
-	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_51]
-	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_51]
-	at java.io.BufferedInputStream.fill(Unknown Source) ~[?:1.8.0_51]
-	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_51]
-	at org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:248) ~[spigot-1.8.8.jar:git-Spigot-fdc1440-12dc48b]
-	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261) ~[spigot-1.8.8.jar:git-Spigot-fdc1440-12dc48b]
-	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198) ~[spigot-1.8.8.jar:git-Spigot-fdc1440-12dc48b]
-	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145) ~[spigot-1.8.8.jar:git-Spigot-fdc1440-12dc48b]
-	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLineSimple(ConsoleReader.java:3183) ~[spigot-1.8.8.jar:git-Spigot-fdc1440-12dc48b]
-	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2333) ~[spigot-1.8.8.jar:git-Spigot-fdc1440-12dc48b]
-	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2269) ~[spigot-1.8.8.jar:git-Spigot-fdc1440-12dc48b]
-	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2257) ~[spigot-1.8.8.jar:git-Spigot-fdc1440-12dc48b]
-	at net.minecraft.server.v1_8_R3.DedicatedServer$2.run(DedicatedServer.java:81) [spigot-1.8.8.jar:git-Spigot-fdc1440-12dc48b]
-[09:44:12] [Server thread/INFO]: Loading properties
-[09:44:12] [Server thread/INFO]: Default game type: SURVIVAL
+[10:19:14] [Thread-8/INFO]: UUID of player barry is ef4dd58d-27c3-3a00-88aa-44e0a69a74da
+[10:19:19] [Server thread/INFO]: barry[/127.0.0.1:50206] logged in with entity id 231 at ([HsmWorld]248.31146024605508, 76.0, 539.699999988079)
+[10:20:48] [Server thread/INFO]: barry issued server command: /give barry minecraft:diamond_pickaxe 1 0
+[10:20:50] [Server thread/INFO]: barry issued server command: /give barry minecraft:diamond_pickaxe 1 0
+[10:33:13] [Server thread/INFO]: barry lost connection: Disconnected
+[10:33:13] [Server thread/INFO]: barry left the game.
+[10:35:03] [Thread-9/INFO]: UUID of player barry is ef4dd58d-27c3-3a00-88aa-44e0a69a74da
+[10:35:03] [Server thread/INFO]: barry[/127.0.0.1:51274] logged in with entity id 2278 at ([HsmWorld]359.7168636314425, 63.0, 426.61553110157433)
+[10:51:19] [Server thread/INFO]: barry has just earned the achievement [Time to Mine!]
+[10:51:19] [Server thread/INFO]: barry has just earned the achievement [Getting an Upgrade]
+[10:56:33] [Server thread/INFO]: barry issued server command: /tp barry 444 68 -265
+[10:56:33] [Server thread/INFO]: barry issued server command: /tppos 444 68 -265
+[13:03:15] [Server thread/INFO]: barry has just earned the achievement [Time to Farm!]
+[13:28:59] [Server thread/INFO]: barry lost connection: Disconnected
+[13:28:59] [Server thread/INFO]: barry left the game.
+[13:29:15] [Server thread/INFO]: Stopping the server
+[13:29:15] [Server thread/INFO]: Stopping server
+[13:29:16] [Server thread/INFO]: Saving players
+[13:29:16] [Server thread/INFO]: Saving worlds
+[13:29:16] [Server thread/INFO]: Saving chunks for level 'HsmWorld'/Overworld
+[13:29:17] [Server thread/INFO]: Saving chunks for level 'HsmWorld_nether'/Nether
+[13:29:17] [Server thread/INFO]: Saving chunks for level 'HsmWorld_the_end'/The End
+O]: Default game type: SURVIVAL
 [09:44:12] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-fdc1440-12dc48b (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
 [09:44:12] [Server thread/INFO]: Debug logging is disabled
 [09:44:12] [Server thread/INFO]: Server Ping Player Sample Count: 12
